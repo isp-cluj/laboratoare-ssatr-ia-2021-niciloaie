@@ -21,7 +21,10 @@ public class MathBasicOperations {
     }
 
     public static int substract(int x, int y){
-        return 0;
+        return x-y;
+    }
+     public static int multiply(int x, int y){
+        return x*y;
     }
 
     public static void main(String[] args) {
@@ -31,5 +34,7 @@ public class MathBasicOperations {
         for(String arg:args)
             System.out.println("Argument: "+arg);
         System.out.printf("Result of adding %d with %d is: %d\n\n",10,23, MathBasicOperations.add(10,23));
+        System.out.printf("Result of substracting %d with %d is: %d\n\n",10,23, MathBasicOperations.substract(23,10));
+         System.out.printf("Result of multiplying %d with %d is: %d\n\n",10,23, MathBasicOperations.multiply(10,5));
     }
 }

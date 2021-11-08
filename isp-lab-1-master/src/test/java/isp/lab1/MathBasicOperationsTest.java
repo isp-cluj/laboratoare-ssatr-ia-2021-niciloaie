@@ -16,7 +16,10 @@ public class MathBasicOperationsTest {
 
     @Test
     public void testSubstract(){
-        assertEquals("Should substract 2 numbers", 0, MathBasicOperations.substract(15,10));
+        assertEquals("Should substract 2 numbers", 5, MathBasicOperations.substract(15,10));
     }
-
+ @Test
+    public void testMultiply(){
+        assertEquals("Should multiply 2 numbers", 10, MathBasicOperations.multiply(5,2));
+    }
 }
